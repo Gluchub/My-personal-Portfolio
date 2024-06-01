@@ -223,7 +223,7 @@ import {
     {
       name: "JWT authentication",
       description:
-        "A simple not making website. This website is powered by the jwt authentication process one the most safest to store user data ,it creates access and refresh token which a user can you use to communicate with website after getting authenticated.",
+        "A simple note making website. This website is powered by the jwt authentication process one of the most safest way to store user data ,it creates access and refresh token which a user can you use to communicate with website after getting authenticated.",
       tags: [
         {
           name: "react",
