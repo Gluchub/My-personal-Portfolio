@@ -25,6 +25,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    MoneyMatrix
   } from "../assets";
   
   export const navLinks = [
@@ -199,6 +200,31 @@ import {
   ];
   
   const projects = [
+    {
+      name: "MoneyMatrix",
+      description:
+        "MoneyMatrix is the online banking platform where you can transfer funds from one bank account to another. it uses various advance softwares like plaid and dwolla to communicate with various banks",
+      tags: [
+        {
+          name: "Typescript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NextJs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Appwrite",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Sentry",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: MoneyMatrix,
+      source_code_link: "https://github.com/Gluchub/Banking.git",
+    },
     {
       name: "Virtumind",
       description:
