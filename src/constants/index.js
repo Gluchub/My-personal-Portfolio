@@ -26,7 +26,8 @@ import {
     tripguide,
     threejs,
     MoneyMatrix,
-    Sapara
+    Sapara,
+    expensive
   } from "../assets";
   
   export const navLinks = [
@@ -216,6 +217,27 @@ import {
         },
         {
           name: "Firebase",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: Sapara,
+      source_code_link: "https://github.com/Gluchub/Sapara.git",
+    },
+    {
+      name: "Dashboard Analyse",
+      description:
+        "just a normal dashboard web design",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Chartjs",
           color: "orange-text-gradient",
         },
       ],
